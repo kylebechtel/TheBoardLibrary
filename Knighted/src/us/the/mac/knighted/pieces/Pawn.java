@@ -67,7 +67,7 @@ public class Pawn extends Piece {
 	
 	
 	protected int firstColor() {
-		return R.drawable.p_;
+		return R.drawable.p__;
 	}
 
 	@Override

@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".Knighted" >
 
-    <us.the.mac.knighted.pieces.Knight board:square="d4" board:color="white" />
-    <us.the.mac.knighted.pieces.Knight board:square="f5" board:color="black" />
+    <us.the.mac.knighted.pieces.Knight board:square="d2" board:color="white" />
+    <us.the.mac.knighted.pieces.Knight board:square="h5" board:color="black" />
+    <us.the.mac.knighted.pieces.Pawn board:square="a5" board:color="black" />
+    
 
 </us.the.mac.knighted.KnightedBoard>

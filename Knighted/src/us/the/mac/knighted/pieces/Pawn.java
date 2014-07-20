@@ -25,12 +25,12 @@ public class Pawn extends Piece {
 	}
 	
 	//allows the pawn to be promoted to another piece
-	private Piece promotion(int location){
+	private void promotion(int location){
 		//should call a method that goes to the 
 		//UI allowing the user to select a piece
 		//for upgrading. 
 		Piece p = getPieceAt(location);
-		return p;
+		
 		
 		//will then place piece at current location
 		//and remove pawn.
